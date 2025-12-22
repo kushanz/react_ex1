@@ -1,4 +1,4 @@
-export { useState } from 'react';
+import { useState } from 'react';
 export default function Player() {
   const [playerName, setPlayerName] = useState('');
   const [submitted, setSubmitted] = useState(false)
